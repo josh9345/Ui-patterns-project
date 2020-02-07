@@ -1,5 +1,5 @@
 let dropDown = document.querySelectorAll('.tab');
-let text = document.createElement('p')
+// let text = document.createElement('p')
 let charInfo = document.querySelectorAll('p')
 let infoBox = document.querySelectorAll('.panel')
 let baseUrl = 'https://rickandmortyapi.com/api/character/'
@@ -43,12 +43,13 @@ for(let i=0; i<=dropDown.length; i++){
 	.then(res =>{
 		return res.json();
 	})
-	.then((res) =>{
+	.then(res =>{
 		image[i].setAttribute('src', res.image)
-		for(let i=0; i<dropDown.length; i++){
-			infoBox[i].createElement('p').innerText = res.name
-	}
+		let text = document.createElement('p')
+		infoBox[i].appendChild(text).innerText = 'Name: '+res.name
+	
 		console.log(res)
 	})
 }
+
 console.log(image)
