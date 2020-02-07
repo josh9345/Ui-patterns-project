@@ -2,6 +2,7 @@ let dropDown = document.querySelectorAll('.tab');
 let text = document.createElement('p')
 let infoBox = document.querySelectorAll('.panel')
 let baseUrl = 'https://rickandmortyapi.com/api/character/'
+let image = document.querySelectorAll('.image')
 for(let i=0; i<dropDown.length; i++){	
 		infoBox[i].appendChild(text.cloneNode()).innerText = 'hdgsghfg fiuehwiflu oihdfwoh hdslajhs fjkdsafjslah';
 }
@@ -22,7 +23,10 @@ for(let i=0; i<dropDown.length; i++){
 	})
 }
 for(i=0; i<dropDown.length; i++){
-	
+	fetch(baseUrl)
+	.then(res => {
+		infoBox[i].image[i].setAttribute('src', baseUrl + i)})
+
 }
 let test = baseUrl + '1';
 console.log(test)
