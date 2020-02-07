@@ -38,7 +38,7 @@ for(let i=0; i<dropDown.length; i++){
 		
 // 	}
 // }
-for(let i=0; i<=dropDown.length; i++){
+for(let i=0; i<dropDown.length; i++){
 	fetch(baseUrl +i+1)
 	.then(res =>{
 		return res.json();
