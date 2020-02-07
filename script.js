@@ -46,7 +46,9 @@ for(let i=0; i<=dropDown.length; i++){
 	.then(res =>{
 		image[i].setAttribute('src', res.image)
 		let text = document.createElement('p')
-		infoBox[i].appendChild(text).innerText = 'Name: '+res.name
+		infoBox[i].appendChild(text.cloneNode()).innerText = 'Name: '+res.name
+		infoBox[i].appendChild(text.cloneNode()).innerText = 'Status: '+res.status
+		infoBox[i].appendChild(text.cloneNode()).innerText = 'Status: '+res.species
 	
 		console.log(res)
 	})
