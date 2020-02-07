@@ -1,15 +1,15 @@
 let dropDown = document.querySelectorAll('.tab');
 let text = document.createElement('p')
+let charInfo = document.querySelectorAll('p')
 let infoBox = document.querySelectorAll('.panel')
 let baseUrl = 'https://rickandmortyapi.com/api/character/'
 let image = document.querySelectorAll('.image')
-for(let i=0; i<dropDown.length; i++){	
-		infoBox[i].appendChild(text.cloneNode()).innerText = 'hdgsghfg fiuehwiflu oihdfwoh hdslajhs fjkdsafjslah';
-}
+
+
 for(let i=0; i<dropDown.length; i++){
 	dropDown[i].addEventListener('hoover', function(){
 		this.classList.toggle('active');
-		let panel = document.querySelectorAll('p')
+		
 	})
 }
 for(let i=0; i<dropDown.length; i++){
@@ -22,11 +22,33 @@ for(let i=0; i<dropDown.length; i++){
 		}
 	})
 }
-for(i=0; i<dropDown.length; i++){
-	fetch(baseUrl)
-	.then(res => {
-		infoBox[i].image[i].setAttribute('src', baseUrl + i)})
+// fetch(baseUrl)
+// .then(res =>{
+// 	return res.json();
+// })
+// .then(res =>{
 
+// 	for(i=0; i<dropDown.length; i++){
+// 		let test = baseUrl + (i+1);
+// 		console.log(test)
+// 		image[i].setAttribute('src', test.image)
+// 		console.log(test.image)
+// 	}
+// 	});	
+		
+// 	}
+// }
+for(let i=0; i<=dropDown.length; i++){
+	fetch(baseUrl +i+1)
+	.then(res =>{
+		return res.json();
+	})
+	.then((res) =>{
+		image[i].setAttribute('src', res.image)
+		for(let i=0; i<dropDown.length; i++){
+			infoBox[i].createElement('p').innerText = res.name
+	}
+		console.log(res)
+	})
 }
-let test = baseUrl + '1';
-console.log(test)
+console.log(image)
