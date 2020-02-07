@@ -48,7 +48,9 @@ for(let i=0; i<=dropDown.length; i++){
 		let text = document.createElement('p')
 		infoBox[i].appendChild(text.cloneNode()).innerText = 'Name: '+res.name
 		infoBox[i].appendChild(text.cloneNode()).innerText = 'Status: '+res.status
-		infoBox[i].appendChild(text.cloneNode()).innerText = 'Status: '+res.species
+		infoBox[i].appendChild(text.cloneNode()).innerText = 'Species: '+res.species
+		infoBox[i].appendChild(text.cloneNode()).innerText = 'Gender: '+res.gender
+		infoBox[i].appendChild(text.cloneNode()).innerText = 'Origin: '+res.location.name
 	
 		console.log(res)
 	})
