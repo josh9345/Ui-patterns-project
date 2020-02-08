@@ -4,17 +4,19 @@
 }
 .Container{
 	margin: 0 auto;
-	margin-top: 15vh;
+	margin-top: 0vh;
 	width: 45%;
 	background-color: grey;
 
 }
 .tab{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	height: 30px;
 	width: 100%;
 	display: block;
-	background-color: #42433e;
+	background-color: grey;
 	color: white;
+	border: 1px solid #42433e;
 	
 }
 .active, .tab:hover{
@@ -28,25 +30,27 @@
 	overflow: hidden;
 }
 .header{
-	height:10vh;
-	color: white;
-	background-color: #42433e;
+	height:20vh;
+	color: black;
+	background-image: url(https://ch20webmaster.com/wp-content/uploads/2018/08/Rick-And-Morty-Desktop-Wallpaper-Art33r.jpg);
 	text-align: center;
+	background-position: 50% 50%;
 	padding-top: 40px
 
 }
 .image{
 	width: 100%;
 	height: 45vh;
+	margin-bottom: -4px;
 }
 p{
-	
+	background-color: #42433e;
+	color: white; 
 	border: 1px solid black;
 	margin: 0;
 }
 body{
-	background-image: url(https://images4.alphacoders.com/936/936813.png);
+	background-color: white;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-size: cover;
 }
