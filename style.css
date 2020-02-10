@@ -4,9 +4,9 @@
 }
 .Container{
 	margin: 0 auto;
-	margin-top: 0vh;
+	margin-top: 5%;
 	margin-bottom:10vh;
-	width: 45%;
+	width: 35%;
 	background-color: grey;
 
 }
@@ -22,7 +22,7 @@
 }
 .active, .tab:hover{
 	background-color: #ccc;
-	width: 230px;
+	width: 102%;
 }
 .panel{
 	padding: 0;
@@ -32,15 +32,16 @@
 	overflow: hidden;
 }
 .header{
-	height:18vh;
+	height:25vh;
 	color: black;
-	background-image: url('https://m.media-amazon.com/images/M/MV5BMTU2NTcxMTI5M15BMl5BanBnXkFtZTgwNTc1NTQyMTE@._V1_SX1777_CR0,0,1777,651_AL_.jpg');
+	background-image: url(https://wallpapercave.com/wp/wp3277659.jpg);
 	text-align: center;
 	overflow: hidden;
 	background-repeat: no-repeat;
-	background-position: 75% 50%;
+	background-position: 30% 70%;
 	background-size: cover;
-	padding-top: 40px
+	padding-top: 25%;
+
 
 }
 .image{
@@ -50,8 +51,10 @@
 }
 .footer{
 	height:50vh;
-	width: 75%;
-	background-image: url()
+	width: 100%;
+	background-image: url(https://m.media-amazon.com/images/M/MV5BMTU2NTcxMTI5M15BMl5BanBnXkFtZTgwNTc1NTQyMTE@._V1_SX1777_CR0,0,1777,651_AL_.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 p{
 	background-color: #42433e;
@@ -64,7 +67,8 @@ body{
 	background-position: 50% 50%;
 	background-size: cover;
 	/*background-repeat: no-repeat;*/
-	background-image: url(https://i.imgur.com/zys10Yi.jpg);
+	/*background-image: url(https://i.imgur.com/zys10Yi.jpg);*/
 	width: 100%;
 	height: 100%;
 }
+@media 
