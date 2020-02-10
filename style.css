@@ -17,13 +17,14 @@
 	display: block;
 	background-color: grey;
 	font-family: 'Press Start 2P', cursive;
-	color: white;
+	color: #62cde3;
 	border: 1px solid #42433e;
 	
 }
 .active, .tab:hover{
 	background-color: #ccc;
 	width: 102%;
+	color: blue;
 }
 .panel{
 	padding: 0;
@@ -51,7 +52,7 @@
 	margin-bottom: -4px;
 }
 .footer{
-	height:50vh;
+	height:50%;
 	width: 100%;
 	background-image: url(https://m.media-amazon.com/images/M/MV5BMTU2NTcxMTI5M15BMl5BanBnXkFtZTgwNTc1NTQyMTE@._V1_SX1777_CR0,0,1777,651_AL_.jpg);
 	background-repeat: no-repeat;
