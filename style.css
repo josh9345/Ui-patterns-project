@@ -5,12 +5,13 @@
 .Container{
 	margin: 0 auto;
 	margin-top: 0vh;
+	margin-bottom:10vh;
 	width: 45%;
 	background-color: grey;
 
 }
 .tab{
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 35px 0 rgba(0,0,0,0.5);
 	height: 30px;
 	width: 100%;
 	display: block;
@@ -30,18 +31,26 @@
 	overflow: hidden;
 }
 .header{
-	height:20vh;
+	height:7vh;
 	color: black;
-	background-image: url(https://ch20webmaster.com/wp-content/uploads/2018/08/Rick-And-Morty-Desktop-Wallpaper-Art33r.jpg);
+	background-image: url(https://www.logolynx.com/images/logolynx/1b/1b195a66f61b7036991d19b9a2bb4e7c.jpeg);
 	text-align: center;
+	overflow: hidden;
+	/*background-repeat: no-repeat;*/
 	background-position: 50% 50%;
+	background-size: cover;
 	padding-top: 40px
 
 }
 .image{
 	width: 100%;
-	height: 45vh;
+	height: 35vh;
 	margin-bottom: -4px;
+}
+.footer{
+	height:50vh;
+	width: 75%;
+	background-image: url()
 }
 p{
 	background-color: #42433e;
@@ -52,5 +61,9 @@ p{
 body{
 	background-color: white;
 	background-position: 50% 50%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-image: url(https://i.imgur.com/zys10Yi.jpg);
+	width: 100%;
+	height: 100%;
 }
