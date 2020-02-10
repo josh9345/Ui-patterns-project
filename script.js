@@ -22,22 +22,7 @@ for(let i=0; i<dropDown.length; i++){
 		}
 	})
 }
-// fetch(baseUrl)
-// .then(res =>{
-// 	return res.json();
-// })
-// .then(res =>{
 
-// 	for(i=0; i<dropDown.length; i++){
-// 		let test = baseUrl + (i+1);
-// 		console.log(test)
-// 		image[i].setAttribute('src', test.image)
-// 		console.log(test.image)
-// 	}
-// 	});	
-		
-// 	}
-// }
 for(let i=0; i<dropDown.length; i++){
 	fetch(baseUrl +i+1)
 	.then(res =>{
