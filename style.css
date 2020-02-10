@@ -23,7 +23,7 @@
 }
 .active, .tab:hover{
 	background-color: #ccc;
-	width: 102%;
+	width: 103%;
 	color: blue;
 }
 .panel{
