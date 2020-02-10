@@ -11,7 +11,7 @@
 
 }
 .tab{
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 35px 0 rgba(0,0,0,0.5);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 35px 0 rgba(0,0,0,0.5);
 	height: 30px;
 	width: 100%;
 	display: block;
