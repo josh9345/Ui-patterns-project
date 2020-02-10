@@ -31,13 +31,13 @@
 	overflow: hidden;
 }
 .header{
-	height:7vh;
+	height:18vh;
 	color: black;
-	background-image: url(https://www.logolynx.com/images/logolynx/1b/1b195a66f61b7036991d19b9a2bb4e7c.jpeg);
+	background-image: url('https://m.media-amazon.com/images/M/MV5BMTU2NTcxMTI5M15BMl5BanBnXkFtZTgwNTc1NTQyMTE@._V1_SX1777_CR0,0,1777,651_AL_.jpg');
 	text-align: center;
 	overflow: hidden;
-	/*background-repeat: no-repeat;*/
-	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-position: 75% 50%;
 	background-size: cover;
 	padding-top: 40px
 
@@ -62,7 +62,7 @@ body{
 	background-color: white;
 	background-position: 50% 50%;
 	background-size: cover;
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	background-image: url(https://i.imgur.com/zys10Yi.jpg);
 	width: 100%;
 	height: 100%;
