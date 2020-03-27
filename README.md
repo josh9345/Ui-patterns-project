@@ -1,12 +1,27 @@
-# Ui-patterns-project
+# Project Title
 
-### Technologies used
+Rick and morty accordion pattern, displays rick and morty character info
+
+## Getting Started
+
+fork and clone this repo then run the index.html file
+
+\$index.html
+
+## Built With
 
 1. HTML5
 2. CSS3
 3. Javascript
 
-### Design
+## Contributing
 
-This project was built using the accordion ui pattern and uses the rick and morty api
-using fetch to bring the data based on the characters id, and for loops to displaying images and character info
+If you would like to contribute submit a pull request and i will respond in a timely manner
+
+## Version
+
+1.0
+
+## Authors
+
+- **Joshua Reed**
