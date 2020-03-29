@@ -1,6 +1,6 @@
 # Rick and Morty Accordion
 
-Rick and morty accordion UI pattern, this project was built as an exercise in front end design and using an API to fetch and populate data. this application used rickandmortyapi.com Api to fetch the character data and using vanilla Javascript, CSS, and HTML to build the ui and populate it with data.
+Rick and morty accordion UI pattern, this project was built as an exercise in front end design and using an API to fetch and populate data. this application used (https://rickandmortyapi.com/) Api to fetch the character data and using vanilla Javascript, CSS, and HTML to build the ui and populate it with data.
 
 ## Errors and Bugs
 
@@ -18,7 +18,7 @@ fork and clone this repo then run the index.html file
 2. CSS3
 3. Javascript
 4. DOM events
-5. Rick and Morty API: rickandmortyapi.com
+5. Rick and Morty API: https://rickandmortyapi.com/
 
 ## Contributing
 
